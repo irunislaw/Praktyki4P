@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+    font-weight: 550;
+    color: #fff;
+    background-color: #292929;
+}
+
+.background {
+    background-color: #0a0a0a;
+    opacity: 0.8;
+    background-image: linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077);
+    background-size: 40px 70px;
+    background-position: 0 0, 0 0, 20px 36px, 20px 36px, 0 0, 20px 36px;
+    height: 1000px;
+}
+
+ul.navig {
+    list-style: none;
+    margin-left: 3%;
+    margin-top: 80px;
+}
+
+li.navig {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+ul::first-letter {
+    text-transform: uppercase;
+}
+
+.inp {
+    border: none;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: #ff9100 2px solid;
+    color: #fff;
+}
+
+#dataur {
+    width: 20%;
+}
+
+.colorinp {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    width: 10%;
+    height: 45px;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-top: 20px;
+    border-bottom: #ff9100 2px solid;
+    cursor: pointer;
+}
+
+.❗ {
+    border: #ff9100 2px solid;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    width: 10%;
+    height: 45px;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.☕ {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    background-color: #000000;
+    box-shadow: 0px 5px 10px 0px rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.☕::first-letter {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.😠 {
+    color: #ff9100;
+}
+
+.✨ {
+    font-size: 30px;
+    margin-left: 5%;
+    text-transform: capitalize;
+}
+
+.🖋:link {
+    color: #ff9100;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 5%;
+}
+
+#🤑 {
+    margin-left: 5%;
+    margin-bottom: 10px;
+}

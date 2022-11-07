@@ -6,43 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li>strona glowna</li>
-            <li>jakies inne </li>
-        </ul>
-    </nav>
-    <article>
-        grupa ludzi z 4 p ktorzy programują
-    </article>
-    <section>
-        <form action="">
-            imie: <input type="text" name="imie" id="firstName"> <br>
-            nazwisko" <input type="text" id="lastName"> <br>
-            data ur : <input type="date" name="" id="date"> <br>
-            kolor : <input type="color" name="" id="color"> <br>
-            <input type="submit" value="wyslij zgłoszenie">
-        </form> <br>
+    <div class="background">
+        <article class="☕">
+            grupa ludzi z 4<a class="😠">P</a> ktorzy programują
+        </article>
+        <nav>
+            <ul class="navig">
+                <li class="navig">strona glowna</li>
+                <li class="navig">jakies inne </li>
+            </ul class="navig">
+        </nav>
+
+        <section class="✨">
+            <form action="">
+                imie: <input class="inp" type="text" name="imie" id="firstName"> <br> nazwisko: <input class="inp" type="text" id="lastName"> <br> data ur : <input id="dataur" class="inp" type="date" name="" id="date"> <br> kolor : <input class="colorinp"
+                    type="color" name="" id="color"> <br>
+                <input class="❗" type="submit" value="wyslij zgłoszenie">
+            </form> <br>
 
 
-    </section>
-    <footer>
-        tu jest stopka
-    </footer>
-    <img src="https://media.istockphoto.com/vectors/thumb-up-emoticon-vector-id157030584?k=20&m=157030584&s=612x612&w=0&h=TsRUZrgOW19D1f3WMleDrgGL-xfI6g0ZYhJDp58lS0E="
-        alt="obrazek"> <br>
-    <a href="www.google.com">link do googla</a> <br>
-    <h1>to h1</h1>
-    <h2>to h2</h2>
-    <h3>to h3</h3>
-    <h4>to h4</h4>
-    <h5>to h5</h5>
-    <p>to paragraf</p>
-    <button>przycisk</button>
+        </section>
+
+        <a class="🖋" href="www.google.com">link do googla</a> <br>
+        <h1 id="🤑">to h1</h1>
+        <h2 id="🤑">to h2</h2>
+        <h3 id="🤑">to h3</h3>
+        <h4 id="🤑">to h4</h4>
+        <h5 id="🤑">to h5</h5>
+        <p id="🤑">to paragraf</p>
+        <button class="❗" id="🤑">przycisk</button>
+        <footer id="🤑">
+            tu jest stopka
+        </footer>
+    </div>
 
     <script>
         const color = document.getElementById("color");
