@@ -49,17 +49,32 @@
     </div>
 
     <script>
+     
+        
+        const imie = document.getElementById("firstName");
         const color = document.getElementById("color");
         document.addEventListener("submit", (e) => {
             e.preventDefault();
+            
+            if (imie.value.length < 3) {
+        return alert("Wypełnij poprawnie pole z imieniem");
+    } else 
             if (color.value.toUpperCase() === "#FF0000") { //If the color is impostor 
                 return alert("Sussy color 🤨. Spróbuj jeszcze raz.");
-            }
-            alert("Formularz wysłany :tf: :tf:");
+            }else
+                {  alert("Formularz wysłany :tf: :tf:");}
+        
+       
+         
+           
 
 
         });
-    </script>
-</body>
+       
+            
 
+
+       
+        </script>
+        </body>
 </html>
